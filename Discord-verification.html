@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Verification</title>
+    <!-- Add your CSS styles here if needed -->
+</head>
+<body>
+    <h1>Discord Verification</h1>
+    <p>Enter your Discord username and discriminator (e.g., Username#1234) to verify your account.</p>
+    
+    <form action="/verify" method="POST">
+        <label for="discordUsername">Discord Username:</label>
+        <input type="text" id="discordUsername" name="discordUsername" required>
+        
+        <label for="discordDiscriminator">Discord Discriminator:</label>
+        <input type="text" id="discordDiscriminator" name="discordDiscriminator" required>
+
+        <button type="submit">Verify</button>
+    </form>
+
+    <!-- Add any additional content or styling as needed -->
+</body>
+</html>
